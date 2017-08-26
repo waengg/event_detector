@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1299076577 source:c:\users\soraia\dados\source\cgi-2011_1\testetemplate\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\testetemplate\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\testetemplate\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\testetemplate\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\testetemplate\include\gl\freeglut_ext.h
+
+1296490906 source:c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\main.cpp
+	<stdlib.h>
+	<GL/glut.h>
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\include\gl\freeglut_ext.h
+
+1302034390 source:c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\projeto1\main.cpp
+	<stdlib.h>
+	<GL/glut.h>
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\projeto1\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\projeto1\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\projeto1\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\soraia\dados\source\cgi-2011_1\firstopenglproject\projeto1\include\gl\freeglut_ext.h
+
+1302034390 source:c:\users\joao_\desktop\exemploopengl\main.cpp
+	<stdlib.h>
+	<GL/glut.h>
+
+1298986600 c:\users\joao_\desktop\exemploopengl\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\joao_\desktop\exemploopengl\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\joao_\desktop\exemploopengl\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\joao_\desktop\exemploopengl\include\gl\freeglut_ext.h
+
+1503159649 source:c:\users\joao_\desktop\trab1cg opengl\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Coordinate.h"
+	"Matrix.h"
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glut.h>
+
+1298986600 c:\users\joao_\desktop\trab1cg opengl\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\joao_\desktop\trab1cg opengl\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\joao_\desktop\trab1cg opengl\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\joao_\desktop\trab1cg opengl\include\gl\freeglut_ext.h
+
+1503157943 source:c:\users\joao_\desktop\trab1cg opengl\src\coordinate.cpp
+	<iostream>
+	"Coordinate.h"
+
+1503158163 c:\users\joao_\desktop\trab1cg opengl\include\coordinate.h
+
+1503164052 source:c:\users\joao_\desktop\trab1cg opengl\src\matrix.cpp
+	<iostream>
+	"Matrix.h"
+	<stdlib.h>
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<GL/glut.h>
+	<cmath>
+
+1503158924 c:\users\joao_\desktop\trab1cg opengl\include\matrix.h
+	"Coordinate.h"
+
+1503662010 source:c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\src\coordinate.cpp
+	<iostream>
+	"Coordinate.h"
+
+1503662005 c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\include\coordinate.h
+
+1503662760 source:c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Coordinate.h"
+	"Matrix.h"
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glut.h>
+
+1503661422 c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\include\matrix.h
+	"Coordinate.h"
+
+1298986600 c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\include\gl\freeglut_ext.h
+
+1503662828 source:c:\users\15201850\desktop\trab1cg\trab1cg opengl c-inf\src\matrix.cpp
+	<iostream>
+	"Matrix.h"
+	<stdlib.h>
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<GL/glut.h>
+	<cmath>
+
+1503755301 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Coordinate.h"
+	"Matrix.h"
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glut.h>
+
+1503754886 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\coordinate.h
+
+1503755291 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\matrix.h
+	"Coordinate.h"
+	<unordered_map>
+
+1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\freeglut_ext.h
+
+1503754895 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\src\coordinate.cpp
+	<iostream>
+	"Coordinate.h"
+
+1503755453 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\src\matrix.cpp
+	<iostream>
+	"Matrix.h"
+	<stdlib.h>
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<GL/glut.h>
+	<cmath>
+
+1503753920 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\src\events\untitled1.cpp
+
