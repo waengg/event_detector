@@ -1,9 +1,8 @@
 #ifndef MATRIX_H
 #define MATRIX_H
+#include <string>
 #include "Coordinate.h"
 #include <unordered_map>
-
-using namespace std;
 
 class Matrix
 {
@@ -13,8 +12,9 @@ class Matrix
 
         Matrix(int, int);
         void mInsertCoord(Coordinate, int, int);
+        void Initialize();
         void toString();
-        void readFile();
+        void readFile(std:: string);
         void setInfected(int, int);
         void attInfected(int);
         Coordinate getCoord(int, int);
@@ -22,6 +22,8 @@ class Matrix
         void infectThroughTrace(int);
         void insertCoordinateIntoHashMap(Coordinate);
         bool findCoordinateFromMap(Coordinate);
+        void clearMap();
+        void setStartInfections(int);
 };
 
 #endif // MATRIX_H

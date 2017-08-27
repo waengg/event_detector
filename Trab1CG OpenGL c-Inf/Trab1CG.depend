@@ -166,44 +166,46 @@
 	<GL/glut.h>
 	<cmath>
 
-1503755301 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\main.cpp
+1503702603 source:c:\users\joao_\desktop\traces\trab1cg opengl c-inf\main.cpp
 	<iostream>
 	<stdlib.h>
 	"Coordinate.h"
 	"Matrix.h"
+	"TextFiles.h"
 	<fstream>
 	<string>
 	<iomanip>
 	<cstdlib>
+	<time.h>
 	<windows.h>
 	<GL/gl.h>
 	<GL/glut.h>
 
-1503754886 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\coordinate.h
+1503662005 c:\users\joao_\desktop\traces\trab1cg opengl c-inf\include\coordinate.h
 
-1503755291 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\matrix.h
+1503698994 c:\users\joao_\desktop\traces\trab1cg opengl c-inf\include\matrix.h
+	<string>
 	"Coordinate.h"
-	<unordered_map>
 
-1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\glut.h
+1298986600 c:\users\joao_\desktop\traces\trab1cg opengl c-inf\include\gl\glut.h
 	"freeglut.h"
 
-1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\freeglut.h
+1298986600 c:\users\joao_\desktop\traces\trab1cg opengl c-inf\include\gl\freeglut.h
 	"freeglut_std.h"
 	"freeglut_ext.h"
 
-1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\freeglut_std.h
+1298986600 c:\users\joao_\desktop\traces\trab1cg opengl c-inf\include\gl\freeglut_std.h
 	<windows.h>
 	<GL/gl.h>
 	<GL/glu.h>
 
-1298986600 d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\include\gl\freeglut_ext.h
+1298986600 c:\users\joao_\desktop\traces\trab1cg opengl c-inf\include\gl\freeglut_ext.h
 
-1503754895 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\src\coordinate.cpp
+1503662010 source:c:\users\joao_\desktop\traces\trab1cg opengl c-inf\src\coordinate.cpp
 	<iostream>
 	"Coordinate.h"
 
-1503755453 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\src\matrix.cpp
+1503702260 source:c:\users\joao_\desktop\traces\trab1cg opengl c-inf\src\matrix.cpp
 	<iostream>
 	"Matrix.h"
 	<stdlib.h>
@@ -214,5 +216,94 @@
 	<GL/glut.h>
 	<cmath>
 
-1503753920 source:d:\햞ea de trabalho\trabalhocg\trab1cg opengl c-inf\src\events\untitled1.cpp
+1503700689 c:\users\joao_\desktop\traces\trab1cg opengl c-inf\include\textfiles.h
+	<string>
+	"Matrix.h"
+
+1503702214 source:c:\users\joao_\desktop\traces\trab1cg opengl c-inf\src\textfiles.cpp
+	"TextFiles.h"
+	<string>
+	<time.h>
+	<cstdlib>
+
+1503862926 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Coordinate.h"
+	"Matrix.h"
+	"TextFiles.h"
+	"InfectedTrail.h"
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<time.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glut.h>
+
+1503855228 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\coordinate.h
+	<string>
+
+1503848330 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\matrix.h
+	<string>
+	"Coordinate.h"
+	<unordered_map>
+
+1503700689 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\textfiles.h
+	<string>
+	"Matrix.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\gl\freeglut_ext.h
+
+1503855115 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\coordinate.cpp
+	<iostream>
+	"Coordinate.h"
+	<string>
+	<sstream>
+
+1503861557 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\matrix.cpp
+	<iostream>
+	"Matrix.h"
+	<stdlib.h>
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<GL/glut.h>
+	<cmath>
+
+1503862250 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\textfiles.cpp
+	"TextFiles.h"
+	<string>
+	<time.h>
+	<cstdlib>
+
+1503863245 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\infectedtrail.cpp
+	"InfectedTrail.h"
+	"Coordinate.h"
+	<string>
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+
+1503860553 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\infectedtrail.h
+	"Coordinate.h"
+	<string>
+	<sstream>
+	<vector>
+	<algorithm>
 
