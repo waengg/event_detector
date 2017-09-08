@@ -226,13 +226,12 @@
 	<time.h>
 	<cstdlib>
 
-1503862926 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\main.cpp
+1503850941 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\main.cpp
 	<iostream>
 	<stdlib.h>
 	"Coordinate.h"
 	"Matrix.h"
 	"TextFiles.h"
-	"InfectedTrail.h"
 	<fstream>
 	<string>
 	<iomanip>
@@ -242,8 +241,7 @@
 	<GL/gl.h>
 	<GL/glut.h>
 
-1503855228 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\coordinate.h
-	<string>
+1503849424 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\coordinate.h
 
 1503848330 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\matrix.h
 	<string>
@@ -268,13 +266,13 @@
 
 1298986600 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\gl\freeglut_ext.h
 
-1503855115 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\coordinate.cpp
+1503849424 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\coordinate.cpp
 	<iostream>
 	"Coordinate.h"
 	<string>
 	<sstream>
 
-1503861557 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\matrix.cpp
+1503851364 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\matrix.cpp
 	<iostream>
 	"Matrix.h"
 	<stdlib.h>
@@ -285,25 +283,156 @@
 	<GL/glut.h>
 	<cmath>
 
-1503862250 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\textfiles.cpp
+1503851220 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\textfiles.cpp
 	"TextFiles.h"
 	<string>
 	<time.h>
 	<cstdlib>
 
-1503863245 source:c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\src\infectedtrail.cpp
-	"InfectedTrail.h"
-	"Coordinate.h"
-	<string>
+1503850941 source:c:\users\joao_\desktop\trabcgversoes\rastro bugado\main.cpp
 	<iostream>
 	<stdlib.h>
-	<vector>
-	<algorithm>
+	"Coordinate.h"
+	"Matrix.h"
+	"TextFiles.h"
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<time.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glut.h>
 
-1503860553 c:\users\joao_\desktop\trabcgversoes\traces\trab1cg\include\infectedtrail.h
+1503849424 c:\users\joao_\desktop\trabcgversoes\rastro bugado\include\coordinate.h
+
+1503848330 c:\users\joao_\desktop\trabcgversoes\rastro bugado\include\matrix.h
+	<string>
+	"Coordinate.h"
+	<unordered_map>
+
+1503700689 c:\users\joao_\desktop\trabcgversoes\rastro bugado\include\textfiles.h
+	<string>
+	"Matrix.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\rastro bugado\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\rastro bugado\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\rastro bugado\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\rastro bugado\include\gl\freeglut_ext.h
+
+1503849424 source:c:\users\joao_\desktop\trabcgversoes\rastro bugado\src\coordinate.cpp
+	<iostream>
 	"Coordinate.h"
 	<string>
 	<sstream>
-	<vector>
-	<algorithm>
+
+1503851364 source:c:\users\joao_\desktop\trabcgversoes\rastro bugado\src\matrix.cpp
+	<iostream>
+	"Matrix.h"
+	<stdlib.h>
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<GL/glut.h>
+	<cmath>
+
+1503863943 source:c:\users\joao_\desktop\trabcgversoes\rastro bugado\src\textfiles.cpp
+	"TextFiles.h"
+	<string>
+	<time.h>
+	<cstdlib>
+
+1504667910 source:c:\users\joao_\desktop\trabcgversoes\trabcg\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Coordinate.h"
+	"Matrix.h"
+	"TextFiles.h"
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<time.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	"InfectionClass.h"
+
+1503849424 c:\users\joao_\desktop\trabcgversoes\trabcg\include\coordinate.h
+
+1504666640 c:\users\joao_\desktop\trabcgversoes\trabcg\include\matrix.h
+	<string>
+	"Coordinate.h"
+	<unordered_map>
+
+1503700689 c:\users\joao_\desktop\trabcgversoes\trabcg\include\textfiles.h
+	<string>
+	"Matrix.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\trabcg\include\gl\glut.h
+	"freeglut.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\trabcg\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\trabcg\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 c:\users\joao_\desktop\trabcgversoes\trabcg\include\gl\freeglut_ext.h
+
+1503849424 source:c:\users\joao_\desktop\trabcgversoes\trabcg\src\coordinate.cpp
+	<iostream>
+	"Coordinate.h"
+	<string>
+	<sstream>
+
+1504667022 source:c:\users\joao_\desktop\trabcgversoes\trabcg\src\textfiles.cpp
+	"TextFiles.h"
+	<string>
+	<time.h>
+	<cstdlib>
+
+1504666826 source:c:\users\joao_\desktop\trabcgversoes\trabcg\src\matrix.cpp
+	<iostream>
+	"Matrix.h"
+	<stdlib.h>
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<GL/glut.h>
+	<cmath>
+
+1504666743 c:\users\joao_\desktop\trabcgversoes\trabcg\include\infectionclass.h
+	<string>
+	"Coordinate.h"
+	<unordered_map>
+	<GL/gl.h>
+	<GL/glut.h>
+
+1504666993 source:c:\users\joao_\desktop\trabcgversoes\trabcg\src\infectionclass.cpp
+	<iostream>
+	"Matrix.h"
+	"InfectionClass.h"
+	"Coordinate.h"
+	<stdlib.h>
+	<fstream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<GL/glut.h>
+	<cmath>
 

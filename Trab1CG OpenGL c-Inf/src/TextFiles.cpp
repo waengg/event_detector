@@ -168,8 +168,9 @@ void TextFiles:: startNew (Matrix M)
     }
     delay (3.0);
     M.Initialize();
-    M.clearMap();
+//    M.clearMap();
     M.readFile(file);
-    M.setInfected(0, 0);
-    M.setInfected(5, 0);
+   // M.setInfected(0, 0);
+   // M.setInfected(5, 0);
+
 }

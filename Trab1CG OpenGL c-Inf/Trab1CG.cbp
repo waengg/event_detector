@@ -48,12 +48,12 @@
 			<Add directory="lib" />
 		</Linker>
 		<Unit filename="include/Coordinate.h" />
-		<Unit filename="include/InfectedTrail.h" />
+		<Unit filename="include/InfectionClass.h" />
 		<Unit filename="include/Matrix.h" />
 		<Unit filename="include/TextFiles.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Coordinate.cpp" />
-		<Unit filename="src/InfectedTrail.cpp" />
+		<Unit filename="src/InfectionClass.cpp" />
 		<Unit filename="src/Matrix.cpp" />
 		<Unit filename="src/TextFiles.cpp" />
 		<Extensions>

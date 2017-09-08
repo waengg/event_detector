@@ -5,7 +5,6 @@
 #include "Coordinate.h"
 #include "Matrix.h"
 #include "TextFiles.h"
-#include "InfectedTrail.h"
 #include <fstream>	// para usar file streams (ifstream,ofstream)
 #include <string>	// para usar string
 #include <iomanip>	// para usar manipuladores (setw, right, ...)
@@ -14,7 +13,7 @@
 #include <windows.h>
 #include <GL/gl.h>
 #include <GL/glut.h>
-
+#include "InfectionClass.h"
 
 using namespace std;
 Matrix M (50, 1000);
@@ -26,7 +25,7 @@ int simulation = 0;
 string file;
 TextFiles files;
 bool automatic;
-InfectedTrail trail;
+InfectionClass Inf;
 
 void Timer(int value)
 {
@@ -40,101 +39,22 @@ void delay(float secs)
 	while((clock()/CLOCKS_PER_SEC) < end);
 }
 
-
-void setInfectedColor (Coordinate c) {
-    if (c.isInfected() && c.getStartInfection()>8) {
-        glColor3f (0.0, 0.9f, 0.0f);
-        return;
-    }
-    switch (c.getStartInfection()) {
-    case 0:
-        glColor3f (0.0, 0.0f, 0.0f);
-        break;
-    case 1:
-        glColor3f (0.0, 0.1f, 0.0f);
-        break;
-    case 2:
-        glColor3f (0.0, 0.2f, 0.0f);
-        break;
-    case 3:
-        glColor3f (0.0, 0.3f, 0.0f);
-        break;
-    case 4:
-        glColor3f (0.0, 0.4f, 0.0f);
-        break;
-    case 5:
-        glColor3f (0.0, 0.5f, 0.0f);
-        break;
-    case 6:
-        glColor3f (0.0, 0.6f, 0.0f);
-        break;
-    case 7:
-        glColor3f (0.0, 0.7f, 0.0f);
-        break;
-    case 8:
-        glColor3f (0.0, 0.8f, 0.0f);
-        break;
-    }
-}
-
 void Desenha(void)
 {
-    bool finished = true;
-	// Limpa a janela de visualização com a cor branca
-	glClearColor(1,1,1,0);
-	//glClear(GL_COLOR_BUFFER_BIT);
-
-     glMatrixMode(GL_MODELVIEW);
-     glLoadIdentity();
-
-     // Limpa a janela de visualização com a cor de fundo especificada
-     glClear(GL_COLOR_BUFFER_BIT);
-
-     // Especifica que a cor corrente é vermelha
-     //         R     G     B
-     //glColor3f(1.0f, 0.0f, 0.0f);
-
-     // Desenha um quadrado preenchido com a cor corrente
-    M.setStartInfections(frame);
-    for (int i = 0; i < 50; i++) {
-    Coordinate c = M.getCoord(i, frame);
-    if (c.isInfected() && c.getX() != -1) {
-        //M.insertCoordinateIntoHashMap(c);
-        trail.addTrail(c);
-    }
-    int xInc = c.getX();
-    int yInc = c.getY();
-    //cout << frame << endl;
-    if (xInc != -1 && yInc != -1 && frame != 1000) {
-    if (trail.InfectByTrail (c)) M.setInfected(i, frame);
-     finished = false;
-     glBegin(GL_QUADS);
-                if (c.isInfected()) {
-                    setInfectedColor(c);
-                    //glColor3f (0.0, 0.5f, 0.0f);
-               }
-
-               if (!c.isInfected()) glColor3f(0.0f, 0.0f, 0.7f);
-               glVertex2i(xInc,yInc+rsize);
-               glVertex2i(xInc,yInc);
-               glVertex2i(xInc+rsize,yInc);
-               glVertex2i(xInc+rsize,yInc+rsize);
-     glEnd();
-    }
-    if (c.isInfected()) M.desenhaTrajeto(i, frame);
-    }
-    M.attInfected(frame);
-    M.infectThroughTrace(frame);
-    frame++;
+    bool finished = Inf.drawInfectionSimulation();
     if (finished == true) {
             if (automatic == true){
-                trail.clearTrail();
                 files.startNew(M);
+                Inf.clearMap();
+                Inf.attMatrix(M.getMatrix());
+                Inf.setInfected(0, 0);
+                Inf.setInfected(5, 0);
                 frame = 0;
             }
     }
      // Executa os comandos OpenGL
      glutSwapBuffers();
+     simulation++;
 }
 
 
@@ -165,11 +85,14 @@ int main(void)
         cout << " Digite o nome do arquivo para execucao: " << endl;
         cin >> arq;
         M.readFile(arq);
-        M.setInfected(0, 0);
+        //M.setInfected(0, 0);
     }
     else {
         automatic = true;
         files.startNew(M);
+        Inf.attMatrix(M.getMatrix());
+        Inf.setInfected(0, 0);
+        Inf.setInfected(5, 0);
     }
     //M.readFile();
     //M.attInfected(frame);

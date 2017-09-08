@@ -10,8 +10,6 @@
 
 using namespace std;
 
-std::unordered_map<std::string, std::string> infectedCoordinateMap;
-
 Matrix::Matrix(int persons, int frames) {
 
     Coordinate initiate (-1, -1);
@@ -27,6 +25,10 @@ Matrix::Matrix(int persons, int frames) {
        }
   }
 
+}
+
+Coordinate** Matrix:: getMatrix () {
+    return matrix;
 }
 
 void Matrix:: Initialize () {
@@ -58,83 +60,6 @@ void Matrix:: toString () {
         cout<< ", " << coord.getY() << ") ";
     }
   }
-}
-
-void Matrix:: setInfected (int person, int frame) {
-    int k;
-    for (k = frame; k < 1000; k++)
-        matrix[person][k].setInfected();
-}
-
-void Matrix:: setStartInfections(int frame) {
-    int i, k;
-    for (i = 0; i < 50; i++) {
-       if (matrix [i][frame].isInfected()) {
-        for (k = frame; k < 1000; k++) {
-            if (matrix [i][k].isInfected())
-            matrix[i][k].countStartInfection();
-    }
-    }
-}
-}
-
-void Matrix:: attInfected(int frame){
-    for (int i=0; i<50; i++) {
-        for (int j = 0; j < 50; j++) {
-            Coordinate c = matrix [i] [frame];
-            if (matrix[i][frame].isInfected() == true && matrix[i][frame].getStartInfection()>8 && matrix[i][frame].getX() != -1) {
-
-                int xJ = matrix[j][frame].getX();
-                int yJ = matrix[j][frame].getY();
-                int xI = matrix[i][frame].getX();
-                int yI = matrix[i][frame].getY();
-                int x = xJ - xI;
-                x = x*x;
-                int y = yJ - yI;
-                y = y*y;
-                double soma = x + y;
-                double distance = sqrt (soma);
-                if (distance <= 80)
-                setInfected(j, frame);
-
-            }
-        }
-    }
-}
-
-
-void Matrix:: infectThroughTrace(int frame) {
-
-    for (int i = 0; i < 50; i++) {
-        if (findCoordinateFromMap(matrix[i][frame])) setInfected(i, frame);
-    }
-
-}
-
-void Matrix:: insertCoordinateIntoHashMap(Coordinate c) {
-    if (c.isInfected()) infectedCoordinateMap.emplace(c.toString(), c.toString());
-}
-
-bool Matrix:: findCoordinateFromMap(Coordinate c) {
-    if (infectedCoordinateMap.count(c.toString()) == 0) return false;
-    return true;
-}
-
-void Matrix:: clearMap () {
-    infectedCoordinateMap.clear();
-}
-
-void Matrix:: desenhaTrajeto(int person, int frame) {
-    glLineWidth(3.0);
-    glColor3f(0.0, 0.5, 0.0);
-
-    glBegin(GL_LINES);
-    for (int i = 0; i<frame; i++) {
-        Coordinate Coord = matrix[person] [i];
-        if (Coord.isInfected() && Coord.getX() != -1)
-        glVertex3f(Coord.getX(), Coord.getY(), 0.0);
-    }
-    glEnd();
 }
 
 

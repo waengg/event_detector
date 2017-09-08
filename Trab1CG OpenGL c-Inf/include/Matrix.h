@@ -24,6 +24,7 @@ class Matrix
         bool findCoordinateFromMap(Coordinate);
         void clearMap();
         void setStartInfections(int);
+        Coordinate** getMatrix();
 };
 
 #endif // MATRIX_H

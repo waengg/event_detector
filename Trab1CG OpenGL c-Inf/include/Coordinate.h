@@ -1,8 +1,7 @@
 #ifndef COORDINATE_H
 #define COORDINATE_H
-#include <string>
 
-//using namespace std;
+using namespace std;
 
 class Coordinate
 {
@@ -18,7 +17,7 @@ class Coordinate
         void setY (int);
         void setInfected ();
         bool isInfected ();
-        std::string toString();
+        string toString();
         int getStartInfection();
         void countStartInfection();
 };
