@@ -1,4 +1,4 @@
-# ideal-meme
+# Event Detector
 Primeiro trabalho de Fundamentos de Computação Gráfica
 
 Eventos:
